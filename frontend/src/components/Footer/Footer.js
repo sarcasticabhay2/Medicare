@@ -7,19 +7,15 @@ import logo from '../../assets/Images/logo.png'
 
 const socialLinks = [
   {
-    path: "https://www.youtube.com/@codingwithSamaresh/featured",
-    icon: <AiFillYoutube className='icon' />
-  },
-  {
-    path: "https://github.com/codingwithsamaresh",
+    path: "https://github.com/sarcasticabhay2",
     icon: <AiFillGithub className='icon' />
   },
   {
-    path: "https://www.instagram.com/samaresh_koley/",
+    path: "https://www.instagram.com/_sarcastic.abhay/",
     icon: <AiOutlineInstagram className='icon' />
   },
   {
-    path: "www.linkedin.com/in/samareshkoley",
+    path: "https://www.linkedin.com/in/abhay2419",
     icon: <RiLinkedinFill className='icon' />
   }
 ]
@@ -84,7 +80,7 @@ const Footer = () => {
         <div className='z'>
           <div>
             <img src={logo} />
-            <p>Copyright © {year} developed by samaresh Koley all rights reserved.</p>
+            <p>Copyright © {year} developed by Abhay Kumar all rights reserved.</p>
             <div className='link'>
               {socialLinks.map((link,index)=>(
                 <Link to={link.path} key={index} className='links'>
